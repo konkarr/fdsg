@@ -29,18 +29,14 @@
     }
     
     .form-btn{
-        width: 15rem;
+        width: 14rem;
         height: 3rem;
-        /* border-radius:     50% 0 50%; */
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         font-size: 1.5rem;
-        
         }
     .arrow-item{
         display: none;
-    }
-
-    
+    } 
 }   
 @media (min-width:576px){
     .header-text{
@@ -60,9 +56,8 @@
         display: none;
     }
     .form-btn{
-        width: 15rem;
+        width: 14rem;
         height: 3rem;
-        /* border-radius:     50% 0 50%; */
         margin-top: 2rem;
         }
 }   
@@ -93,7 +88,6 @@
     .form-btn{
         width: 18rem;
         height: 3rem;
-        /* border-radius:     50% 0 50%; */
         position: absolute;
         bottom: 1rem;
         right: -35rem;
@@ -232,7 +226,7 @@ max-width: 30rem;
     color: var(--headercolor);
 }
 .form-btn{
-    background-color: #ece2d6;
+    background-color: whitesmoke;
     border: 2px solid #2951d6;
     border-radius: 30px;
     box-shadow: #2951d6 4px 4px 0 0;
