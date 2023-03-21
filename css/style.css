@@ -118,6 +118,11 @@
 .home{
     min-height: 60vh;
     max-height: 100vh;
+        background-image: url(../images/pexels-daniel-frank-287237.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .back-video{
     position: absolute;
