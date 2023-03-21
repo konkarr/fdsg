@@ -116,7 +116,6 @@
 /*************************** first section  *******************************/
 /*************************** home background *****************************/
 .home{
-    min-height: 70vh;
     max-height: 100vh;
         background-image: url(../images/pexels-daniel-frank-287237.jpg);
     background-position: center;
@@ -198,10 +197,10 @@ max-width: 30rem;
 }
 /************** third section *********************/
 .service-page{
-    min-height: 40vh;
+    min-height: 100vh;
 }
 .header{
-    min-height: 40vh;
+    min-height: 50vh;
     
 }
 .service-text{
@@ -211,7 +210,7 @@ max-width: 30rem;
     background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 40vh;
+    max-height: 100vh;
 }
 .list-group-item{
     background-color: var(--maincolor) !important;
@@ -221,7 +220,7 @@ max-width: 30rem;
 }
 /********************* fourth section **************************/
 .submit-page{
-    min-height: 60vh;
+    min-height:100vh;
     position: relative;
 }
 .submit-text{
@@ -244,8 +243,7 @@ max-width: 30rem;
 }
 /* ****************** fifth section ***************************/
 .about-page{
-    min-height: 60vh;
-    max-height: 100vh;
+    min-height: 100vh;
     background-color: var(--maincolor);
     color: #fff !important;
 }
@@ -260,13 +258,11 @@ max-width: 30rem;
 }
 .about-img-1{
     background-image: url(../images/pexels-sora-shimazaki-5673488.jpg);
-    min-height: 30vh;
     max-height: 50vh;
     background-repeat: no-repeat;
 }
 .about-img-2{
     background-image: url(../images/pexels-daniel-frank-287237.jpg);
-   min-height: 30vh;
    max-height: 50vh;
    background-repeat: no-repeat;
 }
