@@ -26,6 +26,10 @@
     .service-item-2{
         height: 100vh;
     }
+    .submit-page{
+    min-height:100vh;
+    position: relative;
+    }
     .submit-item{
         margin: 10rem 0 .5rem 0;
 
@@ -92,6 +96,10 @@
     .service-item-2{
         height: 50vh;
     }
+    .submit-page{
+    min-height:50vh;
+    position: relative;
+    }
 }
 @media (min-width:998px){
     .header-text{
@@ -113,6 +121,10 @@
     }
     .info-item{
         margin: 10rem 0 5rem 0;
+    }
+    .submit-page{
+    min-height:100vh;
+    position: relative;
     }
     .submit-item{
         margin: 16rem 0 1rem 0;
@@ -247,10 +259,6 @@ max-width: 30rem;
     text-align: center;
 }
 /********************* fourth section **************************/
-.submit-page{
-    min-height:100vh;
-    position: relative;
-}
 .submit-text{
     font-size: 3rem;
     color: var(--headercolor);
