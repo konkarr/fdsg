@@ -152,6 +152,9 @@
 .nav-link{
     color: white !important;
 }
+.nav-item{
+    border-radius: 1rem;
+}
 .nav-item:hover{
 background-color:  var(--headercolor);
 }
@@ -236,7 +239,7 @@ max-width: 30rem;
 }
 .about-text{
     color: var(--headercolor);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .about-img{
     background-position: center;
