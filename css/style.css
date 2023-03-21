@@ -52,6 +52,12 @@
     .arrow-item{
         display: none;
     } 
+    .about-page{
+    min-height: 100vh;
+    }
+    .about-img-1 , .about-img-1 {
+        height: 50vh;
+    }
 }   
 @media (min-width:576px){
     .header-text{
@@ -99,6 +105,16 @@
     .submit-page{
     min-height:50vh;
     position: relative;
+    }
+    .submit-item{
+        margin: 14rem 0 .5rem 0;
+
+    }
+    .about-page{
+    min-height: 30vh;
+    }
+    .about-img-1 , .about-img-1 {
+        height: 30vh;
     }
 }
 @media (min-width:998px){
@@ -158,7 +174,12 @@
     
         }
     }
-    
+    .about-page{
+    min-height: 100vh;
+    }
+    .about-img-1 , .about-img-1 {
+        height: 50vh;
+    }
 }   
 /*************************** first section  *******************************/
 /*************************** home background *****************************/
@@ -279,7 +300,6 @@ max-width: 30rem;
 }
 /* ****************** fifth section ***************************/
 .about-page{
-    min-height: 100vh;
     background-color: var(--maincolor);
     color: #fff !important;
 }
@@ -294,13 +314,9 @@ max-width: 30rem;
 }
 .about-img-1{
     background-image: url(../images/pexels-sora-shimazaki-5673488.jpg);
-    max-height: 50vh;
-    background-repeat: no-repeat;
 }
 .about-img-2{
     background-image: url(../images/pexels-daniel-frank-287237.jpg);
-   max-height: 50vh;
-   background-repeat: no-repeat;
 }
 /* ************************ footer ************************************* */
 .footer{
