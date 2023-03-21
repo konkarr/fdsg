@@ -306,6 +306,7 @@ max-width: 30rem;
 .about-text{
     color: var(--headercolor);
     font-size: 4rem;
+    height: 50vh ;
 }
 .about-img{
     background-position: center;
