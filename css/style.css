@@ -55,7 +55,7 @@
     .about-page{
     min-height: 100vh;
     }
-    .about-img-1 , .about-img-1 {
+    .about-img-1 , .about-img-2 {
         height: 50vh;
     }
 }   
@@ -113,7 +113,7 @@
     .about-page{
     min-height: 30vh;
     }
-    .about-img-1 , .about-img-1 {
+    .about-img-1 , .about-img-2 {
         height: 30vh;
     }
 }
@@ -177,7 +177,7 @@
     .about-page{
     min-height: 100vh;
     }
-    .about-img-1 , .about-img-1 {
+    .about-img-1 , .about-img-2 {
         height: 50vh;
     }
 }   
@@ -306,7 +306,6 @@ max-width: 30rem;
 .about-text{
     color: var(--headercolor);
     font-size: 4rem;
-    height: 50vh ;
 }
 .about-img{
     background-position: center;
