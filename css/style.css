@@ -17,6 +17,15 @@
     .info-item{
         margin: 2rem 0 1rem 0;
     }
+    .service-page{
+    min-height: 100vh;
+    }
+    .header{
+    min-height: 50vh;
+    }
+    .service-item-2{
+        height: 100vh;
+    }
     .submit-item{
         margin: 10rem 0 .5rem 0;
 
@@ -72,7 +81,16 @@
         transform: translateX(0);
     }
     .home{
-    height: 60vh;
+    height: 50vh;
+    }
+    .service-page{
+    min-height: 50vh;
+    }
+    .header{
+    min-height: 50vh;
+    }
+    .service-item-2{
+        height: 50vh;
     }
 }
 @media (min-width:998px){
@@ -83,6 +101,15 @@
         }
         .home{
     height: 100vh;
+    }
+    .service-page{
+    min-height: 100vh;
+    }
+    .header{
+    min-height: 50vh;
+    }
+    .service-item-2{
+        height: 100vh;
     }
     .info-item{
         margin: 10rem 0 5rem 0;
@@ -204,13 +231,6 @@ max-width: 30rem;
     font-size: 3rem;
 }
 /************** third section *********************/
-.service-page{
-    min-height: 100vh;
-}
-.header{
-    min-height: 50vh;
-    
-}
 .service-text{
     font-size: 3rem;
 }
