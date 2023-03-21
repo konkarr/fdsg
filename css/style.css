@@ -29,7 +29,7 @@
     }
     
     .form-btn{
-        width: 18rem;
+        width: 15rem;
         height: 3rem;
         /* border-radius:     50% 0 50%; */
         margin-top: 1rem;
@@ -60,7 +60,7 @@
         display: none;
     }
     .form-btn{
-        width: 18rem;
+        width: 15rem;
         height: 3rem;
         /* border-radius:     50% 0 50%; */
         margin-top: 2rem;
@@ -232,7 +232,7 @@ max-width: 30rem;
     color: var(--headercolor);
 }
 .form-btn{
-    background-color: #f1dfcc;
+    background-color: #ece2d6;
     border: 2px solid #2951d6;
     border-radius: 30px;
     box-shadow: #2951d6 4px 4px 0 0;
