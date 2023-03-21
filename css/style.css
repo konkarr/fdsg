@@ -231,6 +231,20 @@ max-width: 30rem;
     font-size: 3rem;
     color: var(--headercolor);
 }
+.form-btn{
+    background-color: #f1dfcc;
+    border: 2px solid #2951d6;
+    border-radius: 30px;
+    box-shadow: #2951d6 4px 4px 0 0;
+}
+.form-btn:hover {
+    background-color: whitesmoke;
+  }
+  
+.form-btn:active{
+    box-shadow: #2951d6 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
 /* ****************** fifth section ***************************/
 .about-page{
     min-height: 100vh;
