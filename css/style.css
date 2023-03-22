@@ -111,10 +111,10 @@
 
     }
     .about-page{
-    min-height: 30vh;
+   height: 50vh;
     }
     .about-img-1 , .about-img-2 {
-        height: 30vh;
+        height: 20rem;
     }
 }
 @media (min-width:998px){
