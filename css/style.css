@@ -111,7 +111,7 @@
 
     }
     .about-page{
-        min-height: auto;
+        min-height: 62rem;
     }
     .about-img-1 , .about-img-2 {
         height: 31rem;
