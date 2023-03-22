@@ -97,7 +97,7 @@
     min-height: 50vh;
     }
     .header{
-    min-height: 50vh;
+    min-height: 10rem;
     }
     .service-item-2{
         height: 50vh;
@@ -114,7 +114,7 @@
    height: 50vh;
     }
     .about-img-1 , .about-img-2 {
-        height: 20rem;
+        height: 31rem;
     }
 }
 @media (min-width:998px){
