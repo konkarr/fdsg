@@ -111,7 +111,7 @@
 
     }
     .about-page{
-   height: 50vh;
+        height: auto;
     }
     .about-img-1 , .about-img-2 {
         height: 31rem;
