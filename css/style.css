@@ -99,6 +99,7 @@
     }
     .header{
     min-height: 10rem;
+    background-color: white;
     }
     .service-item-2{
         height: 50vh;
@@ -132,6 +133,7 @@
     }
     .header{
     min-height: 50vh;
+    background-color: white;
     }
     .service-item-2{
         height: 100vh;
