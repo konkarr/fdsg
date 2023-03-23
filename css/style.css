@@ -298,8 +298,11 @@ max-width: 30rem;
     background-color: var(--maincolor);
     color: #fff !important;
 }
-.about-text{
+header-text{
     background-color: var(--maincolor);
+}
+.about-text{
+    
     color: var(--headercolor);
     font-size: 4rem;
 }
