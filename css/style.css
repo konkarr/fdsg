@@ -22,7 +22,6 @@
     }
     .header{
     min-height: 50vh;
-    background-color: white;
     }
     .service-item-2{
         height: 80vh;
@@ -262,6 +261,9 @@ max-width: 30rem;
 .service-text{
     font-size: 3rem;
 }
+.service-page .row .header{
+     background-color: whitesmoke;
+}
 .service-item-2{
     background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg);
     background-size: cover;
@@ -298,11 +300,7 @@ max-width: 30rem;
     background-color: var(--maincolor);
     color: #fff !important;
 }
-header-text{
-    background-color: var(--maincolor);
-}
 .about-text{
-    
     color: var(--headercolor);
     font-size: 4rem;
 }
