@@ -22,9 +22,10 @@
     }
     .header{
     min-height: 50vh;
+    background-color: white;
     }
     .service-item-2{
-        height: 100vh;
+        height: 80vh;
     }
     .submit-page{
     min-height:100vh;
