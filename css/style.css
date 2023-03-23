@@ -299,6 +299,7 @@ max-width: 30rem;
     color: #fff !important;
 }
 .about-text{
+    background-color: var(--maincolor);
     color: var(--headercolor);
     font-size: 4rem;
 }
