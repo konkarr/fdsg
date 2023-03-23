@@ -186,7 +186,7 @@
 }   
 /*************************** first section  *******************************/
 /*************************** home background *****************************/
-.back-video{
+/* .back-video{
     position: absolute;
      top: 0;
     left: 0;
@@ -196,7 +196,13 @@
     object-fit: cover;
     z-index: -1;
 }
-
+ */
+.home{
+    background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /***************************** nav-content ******************************/
 .navbar{
     background-color: #00000073 !important;
