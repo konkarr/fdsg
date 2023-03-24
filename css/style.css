@@ -185,7 +185,7 @@
 }   
 /*************************** first section  *******************************/
 /*************************** home background *****************************/
-/* .back-video{
+ .back-video{
     position: absolute;
      top: 0;
     left: 0;
@@ -195,9 +195,9 @@
     object-fit: cover;
     z-index: -1;
 }
- */
+ 
 .home{
-    background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg);
+/*     background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,6 +295,10 @@ max-width: 30rem;
     box-shadow: #2951d6 2px 2px 0 0;
     transform: translate(2px, 2px);
 }
+.form-input{
+    background-image: none !important;
+    border-color: var(--headercolor)!important;
+}
 /* ****************** fifth section ***************************/
 .about-page{
     background-color: var(--maincolor);
@@ -318,6 +322,9 @@ max-width: 30rem;
 /* ************************ footer ************************************* */
 .footer{
     background-color: #2d3450;
+}
+.footer-header{
+    color: var(--headercolor);
 }
 .social-item li{
     border-radius: 50% !important;
