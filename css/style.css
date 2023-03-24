@@ -6,6 +6,7 @@
     font-family: Questrial;
 }
 @media (min-width:340px){
+      /******  start Home    *****/
     .header-text{
         font-size: 3rem;
         margin-bottom: 1.5rem;
@@ -14,9 +15,13 @@
     .home{
     height: 100vh;
     }
+     /******  end Home    *****/
+     /******  start info    *****/
     .info-item{
         margin: 2rem 0 1rem 0;
     }
+    /******  end info    *****/
+    /******  start service    *****/
     .service-page{
     min-height: 100vh;
     }
@@ -26,6 +31,8 @@
     .service-item-2{
         height: 80vh;
     }
+    /******  end service    *****/
+     /******  start submit    *****/
     .submit-page{
     min-height:100vh;
     position: relative;
@@ -52,12 +59,15 @@
     .arrow-item{
         display: none;
     } 
+    /******  end submit    *****/
+    /******  start about    *****/
     .about-page{
     min-height: 100vh;
     }
     .about-img-1 , .about-img-2 {
         height: 50vh;
     }
+    /******  end about    *****/
 }   
 @media (min-width:576px){
     .header-text{
@@ -82,17 +92,12 @@
         margin-top: 2rem;
         }}
 @media (min-width:768px){
-    .img-logo{
-        position: absolute;
-        top: 0;
-        right: 1rem;
-        height: 11rem;
-        width: 12rem;
-        transform: translateX(0);
-    }
+    /******  start home    *****/
     .home{
     height: 50vh;
     }
+    /******  end home    *****/
+    /******  start service   *****/
     .service-page{
     min-height: 50vh;
     }
@@ -102,22 +107,35 @@
     .service-item-2{
         height: 50vh;
     }
+    /******  end service    *****/
+    /******  start submit    *****/
     .submit-page{
     min-height:50vh;
     position: relative;
     }
     .submit-item{
         margin: 14rem 0 .5rem 0;
-
     }
+    .img-logo{
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        height: 11rem;
+        width: 12rem;
+        transform: translateX(0);
+    }
+    /******  end submit    *****/
+    /******  start about    *****/
     .about-page{
         min-height: 62rem;
     }
     .about-img-1 , .about-img-2 {
         height: 31rem;
     }
+    /******  end about    *****/
 }
 @media (min-width:998px){
+    /******  start home    *****/
     .header-text{
         font-size: 4rem;
         margin-bottom: 1.5rem;
@@ -126,6 +144,8 @@
         .home{
     height: 100vh;
     }
+    /******  end home   *****/
+    /******  start service    *****/
     .service-page{
     min-height: 100vh;
     }
@@ -135,9 +155,13 @@
     .service-item-2{
         height: 100vh;
     }
+    /******  end service    *****/
+    /******  start info    *****/
     .info-item{
         margin: 10rem 0 5rem 0;
     }
+    /******  end info    *****/
+    /******  start submit    *****/
     .submit-page{
     min-height:100vh;
     position: relative;
@@ -174,12 +198,15 @@
     
         }
     }
+    /******  end submit    *****/
+    /******  start about    *****/
     .about-page{
     min-height: 100vh;
     }
     .about-img-1 , .about-img-2 {
         height: 50vh;
     }
+    /******  end about    *****/
 }   
 /*************************** first section  *******************************/
 /*************************** home background *****************************/
@@ -192,13 +219,6 @@
     display: block;
     object-fit: cover;
     z-index: -1;
-}
- 
-.home{
-/*     background-image: url(../images/pexels-tima-miroshnichenko-5355718.jpg); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 /***************************** nav-content ******************************/
 .navbar{
